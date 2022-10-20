@@ -129,7 +129,7 @@ def vopros(raynd):
   bred1=rand_otveti.get(raynd*3)
   bred2=rand_otveti.get(raynd*3-1)
   bred3=rand_otveti.get(raynd*3-2)
-  return voprosik, otvetic, bank, bred1, bred2, bred3
+  return voprosik, otvetic
 
 
 def main():
