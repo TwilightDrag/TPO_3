@@ -129,5 +129,16 @@ def main():
     if testy=="1":
       a=1
       test()
+    elif testy=="2":
+      a=1
+      name = input("Как тебя зовут? Ответ - ")
+      print("Начали " + name + "!\n")
+      while voprosik <= 15:
+        print("Вопрос " ,voprosik, "!\n")
+        voprosik, otvetic, bank, bred1, bred2, bred3 = vopros(voprosik)
+        voprosik+=1
+    else:
+      print("Что-то не странное\n")
+
 
 main()
